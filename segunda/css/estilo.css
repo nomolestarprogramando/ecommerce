@@ -1,0 +1,163 @@
+body{
+	padding: 0%;
+	margin: 0%;
+}
+.superior{
+	background: #3853d8;
+	height: 25vh;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	background: #3853d8;
+	height: 8vh;
+	-webkit-box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+	box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+	border: 1px solid #5f77eb;
+}
+.w20{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.w20 ul li{
+	color: white;
+	display: inline;
+	font-family: 'Righteous', cursive;
+	margin: 5%;
+}
+.w60{
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+.w60 h2{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	color: white;
+
+}
+.h100{
+	display: inline;
+	height: 100%;
+}
+
+.elementos{
+	width: 80%;
+	margin: 0 auto;
+	background: black;
+	height: 250px;
+	position: relative;
+	top: -50px;
+}
+.w70{
+	float: left;
+	width: 70%;
+	background: rgb(0,134,252);
+	background: linear-gradient(90deg, rgba(0,134,252,1) 0%, rgba(0,170,252,1) 50%, rgba(0,134,252,1) 100%);
+	height: 100%;
+}
+.w70 img{
+	position: relative;
+	top: -30px;
+}
+.w30{
+	width: 30%;
+	background: rgb(114,0,252);
+	background: linear-gradient(90deg, rgba(114,0,252,1) 0%, rgba(139,44,254,1) 50%, rgba(114,0,252,1) 100%);
+	height: 100%;
+	float: right;
+
+}
+.w30 img{
+	position: relative;
+	height: 100%;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+.descripcion{
+	position: relative;
+	top: -98%;
+	right: -55%;
+}
+.descripcion h5{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 1.2rem;
+}
+.descripcion button{
+	font-family: 'Righteous', cursive;
+	color: white;
+	position: relative;
+	right: -9%;
+	background-color: #2aadfc;
+	padding: 1%;
+	border-radius: 10px;
+	border:none;
+	-webkit-box-shadow: 5px 4px 22px -7px rgba(38,68,83,1);
+	-moz-box-shadow: 5px 4px 22px -7px rgba(38,68,83,1);
+	box-shadow: 5px 4px 22px -7px rgba(38,68,83,1);
+}
+.descripcion button:hover{
+	background-color: white;
+	color: #2aadfc;
+}
+.oferta{
+	background-color: black;
+	color: white;
+	font-family: 'Righteous', cursive;
+	width: 9%;
+	position: relative;
+	top:-170%;
+	right: -90%;
+}
+.oferta h6{
+	text-align: center;
+}
+.articulos{
+	position: relative;
+	top: -50px;
+	width: 80%;
+	margin: 0 auto;
+	height: 30vh;
+}
+.articulos .w30{
+	color: white;
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	background: rgb(0,134,252);
+	background: linear-gradient(90deg, rgba(0,134,252,1) 0%, rgba(0,170,252,1) 50%, rgba(0,134,252,1) 100%);
+	box-sizing: border-box;
+}
+.articulos input{
+	width: 95%;
+	border-radius: 15px;
+	border:none;
+	margin: 1px 5px 1px 5px;
+	height: 5vh;
+	color: black;
+	font-family: 'Righteous', cursive;
+}
+.w25{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.w25 img{
+	width: 100%;
+	position: relative;
+	top: 2.99%;
+	filter:brightness(0.4);
+}
+.w25 img:hover{
+	width: 120%;
+	position: relative;
+	top: 13%;
+	z-index: 1;
+	filter:brightness(1);
+	
+}
